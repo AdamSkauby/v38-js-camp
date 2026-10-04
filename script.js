@@ -1,5 +1,8 @@
-console.log("Nord Glow");
-console.log("Nord Glow");
-console.log("Nord Glow");
-// Byt till "Nord Glow" - tre ställen att glömma
-// Jag rörde 2 rader, plus TABade
+const eventName = "Adam Live";
+const isVip = false;
+let ticketCount = 0;
+
+console.log(eventName);
+ticketCount = 10;
+console.log(ticketCount);
+console.log(isVip);
