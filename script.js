@@ -1,8 +1,6 @@
-const eventName = "Adam Live";
-const isVip = false;
-let ticketCount = 0;
+function totalMinutes(hours, minutes) {
+    return (hours * 60) + minutes;
+}   
 
-console.log(eventName);
-ticketCount = 10;
-console.log(ticketCount);
-console.log(isVip);
+const travel = totalMinutes(2, 15);
+console.log(travel); // 135
